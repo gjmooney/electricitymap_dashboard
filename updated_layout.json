@@ -1,0 +1,107 @@
+{
+  "global": { "tabSetEnableClose": true, "tabSetTabLocation": "bottom" },
+  "borders": [],
+  "layout": {
+    "type": "row",
+    "id": "#1",
+    "children": [
+      {
+        "type": "tabset",
+        "id": "#2",
+        "enableTabStrip": false,
+        "children": [
+          {
+            "type": "tab",
+            "id": "#3",
+            "name": "New section ",
+            "component": "sub",
+            "config": {
+              "model": {
+                "global": { "splitterSize": 8, "tabSetEnableClose": true },
+                "borders": [],
+                "layout": {
+                  "type": "row",
+                  "id": "#1",
+                  "children": [
+                    {
+                      "type": "tabset",
+                      "id": "#bc7e4217-1d34-4612-a022-9705a2b2a900",
+                      "weight": 13.536776212832551,
+                      "children": [
+                        {
+                          "type": "tab",
+                          "id": "#21dcb442-b6fe-408e-89f8-e2d541fb93e1",
+                          "name": "Sidebar",
+                          "component": "Widget",
+                          "config": { "layoutID": "#3" }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "row",
+                      "id": "#4589e5ed-b8e7-4957-ad4b-88d9abd5f79f",
+                      "weight": 86.46322378716745,
+                      "children": [
+                        {
+                          "type": "tabset",
+                          "id": "#5a1ee1e5-2a4c-4aee-b2ad-30296fd4e65b",
+                          "weight": 63.37412587412587,
+                          "children": [
+                            {
+                              "type": "tab",
+                              "id": "#373622ad-404a-4722-b62c-b99f34f1a431",
+                              "name": "Map",
+                              "component": "Widget",
+                              "config": { "layoutID": "#3" }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "row",
+                          "id": "#e6660f44-2066-4236-aa4d-7b5ef2ac31f7",
+                          "weight": 36.62587412587413,
+                          "children": [
+                            {
+                              "type": "tabset",
+                              "id": "#e56a5cfe-9c92-45b4-8c94-e6eba9ea1d5b",
+                              "weight": 50,
+                              "children": [
+                                {
+                                  "type": "tab",
+                                  "id": "#4e46a177-6240-42c9-bbbd-7c40edc1cccd",
+                                  "name": "Electricity Production",
+                                  "component": "Widget",
+                                  "config": { "layoutID": "#3" }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "tabset",
+                              "id": "#4e066bce-e41e-41ef-a42b-6890251d98fc",
+                              "weight": 50,
+                              "children": [
+                                {
+                                  "type": "tab",
+                                  "id": "#8bb8ec8e-9d38-41dd-b672-69345a5038ff",
+                                  "name": "Electricity Price",
+                                  "component": "Widget",
+                                  "config": { "layoutID": "#3" }
+                                }
+                              ],
+                              "active": true
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "active": true
+      }
+    ]
+  }
+}
